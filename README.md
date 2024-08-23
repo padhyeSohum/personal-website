@@ -1,0 +1,1 @@
+Hi there! This is going to be my personal website, made with Vite and Three.JS!
