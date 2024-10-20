@@ -8,22 +8,21 @@
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <div id="landing-container">
+        <!-- <div id="landing-container">
             <h1 class="title">Sohum's Website</h1>
-            <!-- <button class="enter-button"></button> -->
             <canvas id="canvas-landing"></canvas>
-        </div>
-            <canvas id="canvas-main" id="main-container" style="display: none"></canvas>
-        <script type="module" src="/landing.js"></script>
-        <script type="module" src="/main.js"></script>
+        </div> -->
+            <canvas id="canvas-main" id="main-container" style="display: block"></canvas>
+        <!-- <script type="module" src="/landing.js"></script> -->
+        <script type="module" src="/elevator.js"></script>
         <script>
-            function loadMain() {
-                const landingContainer = document.getElementById('landing-container');
-                landingContainer.style = "display: none";
+            // function loadMain() {
+            //     const landingContainer = document.getElementById('landing-container');
+            //     landingContainer.style = "display: none";
                 
-                const mainContainer = document.getElementById('canvas-main');
-                mainContainer.style.display = "block";
-            }
+            //     const mainContainer = document.getElementById('canvas-main');
+            //     mainContainer.style.display = "block";
+            // }
         </script>
     </body>
 </html>
